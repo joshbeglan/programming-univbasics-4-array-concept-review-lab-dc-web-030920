@@ -16,7 +16,7 @@ end
 
 def find_max_value(array)
   i = 0
-  max = nil
+  max = array[0]
   
   while i < array.length
     current = array[i]
